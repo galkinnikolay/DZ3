@@ -9,6 +9,14 @@
 #     3
 #     -> 1
 
+# N = int(input('Введите кол-во элементов: '))
+# X = int(input('Введите число для поиска: '))
+# list = [i+1 for i in range(N)]
+# count = 0
+# print(list)
+# if X in list:
+#     count += 1
+# print(count)
 
 
 # Задача 18: Требуется найти в массиве A[1..N] самый близкий по величине элемент к 
@@ -22,3 +30,14 @@
 #     6
 #     -> 5
 
+# N = int(input('Введите кол-во элементов: '))
+# X = int(input('Введите число для поиска: '))
+# list = [i for i in range(N)]
+# count = list[0]
+# print(list)
+# for i in range(1, len(list)):
+#     if X - list[i] < X - count:
+#         count = list[i]
+#     if X - list[i] == 0:
+#         break
+# print (count)
